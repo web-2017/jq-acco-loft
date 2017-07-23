@@ -1,0 +1,53 @@
+.wrapper{
+    ul{
+        padding: 0;
+        margin: 0;
+    }
+    li{
+        list-style: none;
+    }
+}
+
+.container{
+    width: 400px;
+    margin: 0 auto;
+}
+
+.acco__item{
+    margin-bottom: 10px;
+    &.active{
+        .acco__trigger{
+            background: purple;
+        }
+    }
+}
+.acco__trigger{
+    display: block;
+    background: green;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.acco__content{
+    height: 0;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.acco__content-text{
+    padding: 10px;
+    border: 2px dashed grey;
+}
+
+.test-link{
+    color: green;
+}
+
+.block{
+    width: 100px;
+    height: 200px;
+    background: red;
+}
