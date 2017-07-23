@@ -1,6 +1,6 @@
 # jq-acco-loft
-add html
-<ul class="acco">
+
+            <ul class="acco">
 
                 <li class="acco__item">
                     <a href="#" class="acco__trigger">Пункт 1</a>
